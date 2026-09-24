@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Blush Villa | Luxury Rental Villa in Igatpuri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        rosegold: {
+                            50: '#fbf5f2',
+                            100: '#f7ebe5',
+                            200: '#f0d7cb',
+                            300: '#e5b8a5',
+                            400: '#e2a78f',
+                            500: '#d88b6c',
+                            600: '#c88267',
+                            700: '#a86047',
+                            800: '#8b4d38',
+                            900: '#734130',
+                        },
+                        darkbg: '#0a0909',
+                        cardbg: '#141212',
+                    },
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #080707;
+            color: #f3ece8;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .rosegold-gradient-text {
+            background: linear-gradient(135deg, #f7ebe5 0%, #e2a78f 40%, #c88267 75%, #a86047 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .rosegold-border {
+            border-color: rgba(226, 167, 143, 0.3);
+        }
+
+        .rosegold-bg-btn {
+            background: linear-gradient(135deg, #e2a78f 0%, #c88267 50%, #a86047 100%);
+        }
+
+        .rosegold-bg-btn:hover {
+            background: linear-gradient(135deg, #f0d7cb 0%, #e2a78f 50%, #c88267 100%);
+        }
+
+        .rose-glow {
+            box-shadow: 0 0 60px -10px rgba(226, 167, 143, 0.25);
+        }
+
+        .card-glow:hover {
+            box-shadow: 0 0 30px -5px rgba(226, 167, 143, 0.2);
+            border-color: rgba(226, 167, 143, 0.5);
+        }
+
+        .glass-panel {
+            background: rgba(20, 18, 18, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between items-center relative overflow-x-hidden selection:bg-rosegold-500 selection:text-black pb-28 sm:pb-12">
+
+    <!-- Background Ambient Lights -->
+    <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-rosegold-500/10 rounded-full blur-[140px] pointer-events-none z-0"></div>
+    <div class="fixed bottom-20 left-1/4 w-[350px] h-[350px] bg-rosegold-700/10 rounded-full blur-[120px] pointer-events-none z-0"></div>
+
+    <!-- Header / Brand Bar -->
+    <nav class="w-full py-4 px-6 border-b border-white/5 bg-black/40 backdrop-blur-md z-20 flex justify-between items-center max-w-6xl mx-auto rounded-b-2xl">
+        <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full border border-rosegold-400/40 flex items-center justify-center bg-rosegold-900/20 text-rosegold-300 font-cinzel font-bold text-sm">
+                GB
+            </div>
+            <span class="font-cinzel tracking-widest text-xs sm:text-sm font-semibold rosegold-gradient-text">GOLDEN BLUSH</span>
+        </div>
+        <a href="tel:+919152120509" class="text-xs sm:text-sm font-medium text-rosegold-300 hover:text-white transition flex items-center gap-2 border border-rosegold-500/20 px-3 py-1.5 rounded-full bg-rosegold-900/10">
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <span>+91 9152120509</span>
+        </a>
+    </nav>
+
+    <!-- MAIN HERO CONTENT -->
+    <main class="w-full max-w-2xl mx-auto text-center px-4 pt-10 sm:pt-14 z-10 flex flex-col items-center">
+
+        <!-- LOGO BRANDING CONTAINER -->
+        <div class="relative group mb-8">
+            <!-- Ambient Logo Aura -->
+            <div class="absolute inset-0 rounded-3xl bg-rosegold-500/20 blur-xl group-hover:bg-rosegold-400/30 transition-all duration-500"></div>
+            
+            <div class="relative w-48 h-48 sm:w-56 sm:h-56 rounded-3xl p-6 bg-gradient-to-b from-cardbg via-darkbg to-black border border-rosegold-400/30 flex flex-col items-center justify-center rose-glow transition-transform duration-300 group-hover:scale-[1.02]">
+                
+                <!-- SVG Vector Replica of Golden Blush Villa GB Monogram -->
+                <svg class="w-24 h-24 sm:w-28 sm:h-28 text-rosegold-300 drop-shadow-md" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="roseGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#f7ebe5" />
+                            <stop offset="40%" stop-color="#e2a78f" />
+                            <stop offset="75%" stop-color="#c88267" />
+                            <stop offset="100%" stop-color="#a86047" />
+                        </linearGradient>
+                    </defs>
+                    <!-- Flowing Calligraphic GB Monogram Representation -->
+                    <path d="M50,85 C45,50 85,35 115,55 C135,68 130,100 100,105 C70,110 50,130 55,160 C60,185 105,185 135,165 C155,150 160,125 140,115 C120,105 110,120 125,135 C135,145 125,165 95,165 C70,165 65,140 75,120 C85,100 115,95 130,85 C145,75 140,50 115,45 C80,40 60,65 65,85 Z" stroke="url(#roseGoldGrad)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                    <path d="M90,70 C110,70 145,75 145,105 C145,135 110,145 85,145 M115,108 L155,108" stroke="url(#roseGoldGrad)" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+                </svg>
+
+                <h2 class="font-cinzel text-lg sm:text-xl font-bold tracking-widest text-rosegold-200 mt-2">GOLDEN BLUSH</h2>
+                <div class="flex items-center gap-2 mt-1 w-full justify-center">
+                    <span class="h-[1px] w-6 bg-rosegold-500/40"></span>
+                    <span class="text-[10px] font-cinzel tracking-[0.3em] text-rosegold-400 uppercase">VILLA</span>
+                    <span class="h-[1px] w-6 bg-rosegold-500/40"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOCATION BADGE -->
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-rosegold-900/20 border border-rosegold-500/30 text-rosegold-300 text-xs font-semibold tracking-widest uppercase mb-4 shadow-inner">
+            <svg class="w-3.5 h-3.5 text-rosegold-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+            <span>Igatpuri, Maharashtra</span>
+        </div>
+
+        <h1 class="font-cinzel text-3xl sm:text-5xl font-bold rosegold-gradient-text mb-4 leading-tight">
+            Escape To Pure Luxury
+        </h1>
+        <p class="text-neutral-400 text-sm sm:text-base max-w-md mx-auto leading-relaxed font-light">
+            An exclusive private sanctuary surrounded by misty fog, majestic hill vistas, and supreme peace.
+        </p>
+
+        <!-- COUNTDOWN TIMER CONTAINER -->
+        <div class="my-8 w-full p-6 sm:p-8 rounded-3xl glass-panel border border-rosegold-500/20 shadow-2xl relative">
+            <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-rosegold-900/80 border border-rosegold-400/40 text-rosegold-200 text-[10px] uppercase font-bold tracking-[0.2em] px-4 py-1 rounded-full">
+                Grand Opening Countdown
+            </div>
+
+            <p class="text-xs uppercase tracking-widest text-neutral-400 mb-6 font-medium mt-1">Accepting First Bookings In</p>
+
+            <div class="grid grid-cols-4 gap-2 sm:gap-4 text-center">
+                <div class="p-3 sm:p-4 bg-black/60 rounded-2xl border border-white/5">
+                    <span id="days" class="block text-2xl sm:text-4xl font-bold font-cinzel text-white">60</span>
+                    <span class="text-[9px] sm:text-[10px] text-neutral-400 uppercase tracking-widest mt-1 block">Days</span>
+                </div>
+                <div class="p-3 sm:p-4 bg-black/60 rounded-2xl border border-white/5">
+                    <span id="hours" class="block text-2xl sm:text-4xl font-bold font-cinzel text-white">00</span>
+                    <span class="text-[9px] sm:text-[10px] text-neutral-400 uppercase tracking-widest mt-1 block">Hours</span>
+                </div>
+                <div class="p-3 sm:p-4 bg-black/60 rounded-2xl border border-white/5">
+                    <span id="minutes" class="block text-2xl sm:text-4xl font-bold font-cinzel text-white">00</span>
+                    <span class="text-[9px] sm:text-[10px] text-neutral-400 uppercase tracking-widest mt-1 block">Mins</span>
+                </div>
+                <div class="p-3 sm:p-4 bg-black/60 rounded-2xl border border-white/5">
+                    <span id="seconds" class="block text-2xl sm:text-4xl font-bold font-cinzel text-rosegold-300">00</span>
+                    <span class="text-[9px] sm:text-[10px] text-neutral-400 uppercase tracking-widest mt-1 block">Secs</span>
+                </div>
+            </div>
+
+            <p class="text-[11px] text-neutral-500 mt-5 font-light">
+                Target Launch Date: <span class="text-neutral-300 font-medium">November 23, 2026</span>
+            </p>
+        </div>
+
+        <!-- AMENITIES HIGHLIGHT GRID -->
+        <div class="w-full mb-10">
+            <h3 class="font-cinzel text-lg font-semibold text-rosegold-200 mb-4 tracking-wider">VILLA HIGHLIGHTS</h3>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-left">
+                <div class="p-4 rounded-2xl bg-cardbg/80 border border-white/5 text-center transition-all duration-300 card-glow">
+                    <div class="text-2xl mb-2">🏊‍♂️</div>
+                    <h4 class="font-semibold text-white text-xs sm:text-sm">Private Pool</h4>
+                    <p class="text-[11px] text-neutral-400 mt-0.5">Clear blue deck & pool</p>
+                </div>
+                <div class="p-4 rounded-2xl bg-cardbg/80 border border-white/5 text-center transition-all duration-300 card-glow">
+                    <div class="text-2xl mb-2">⛰️</div>
+                    <h4 class="font-semibold text-white text-xs sm:text-sm">Misty Valley View</h4>
+                    <p class="text-[11px] text-neutral-400 mt-0.5">Scenic Igatpuri hills</p>
+                </div>
+                <div class="p-4 rounded-2xl bg-cardbg/80 border border-white/5 text-center transition-all duration-300 card-glow">
+                    <div class="text-2xl mb-2">🎯</div>
+                    <h4 class="font-semibold text-white text-xs sm:text-sm">Indoor Games & Sound System</h4>
+                    <p class="text-[11px] text-neutral-400 mt-0.5">Board games & music setup</p>
+                </div>
+                <div class="p-4 rounded-2xl bg-cardbg/80 border border-white/5 text-center transition-all duration-300 card-glow">
+                    <div class="text-2xl mb-2">🌿</div>
+                    <h4 class="font-semibold text-white text-xs sm:text-sm">Private Lawn</h4>
+                    <p class="text-[11px] text-neutral-400 mt-0.5">Spacious green garden</p>
+                </div>
+                <div class="p-4 rounded-2xl bg-cardbg/80 border border-white/5 text-center transition-all duration-300 card-glow">
+                    <div class="text-2xl mb-2">🛏️</div>
+                    <h4 class="font-semibold text-white text-xs sm:text-sm">Luxury Bedrooms</h4>
+                    <p class="text-[11px] text-neutral-400 mt-0.5">Air-conditioned suites</p>
+                </div>
+                <div class="p-4 rounded-2xl bg-cardbg/80 border border-white/5 text-center transition-all duration-300 card-glow">
+                    <div class="text-2xl mb-2">🚗</div>
+                    <h4 class="font-semibold text-white text-xs sm:text-sm">Private Parking</h4>
+                    <p class="text-[11px] text-neutral-400 mt-0.5">Secure gated entry</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ACTION BUTTONS -->
+        <div class="w-full space-y-3 mb-8">
+            <!-- Direct WhatsApp QR / Link CTA -->
+            <a href="https://wa.me/qr/SYQFM67YIAEBO1" 
+               target="_blank" 
+               class="flex items-center justify-center gap-3 w-full py-4 px-6 rounded-2xl rosegold-bg-btn font-bold text-black hover:opacity-95 transition-all shadow-xl shadow-rosegold-500/20 text-sm tracking-wide">
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.572-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>Reserve Early Access on WhatsApp</span>
+            </a>
+
+            <!-- Direct Call Option -->
+            <a href="tel:+919152120509" 
+               class="flex items-center justify-center gap-2 w-full py-3.5 px-6 rounded-2xl bg-cardbg hover:bg-neutral-800 text-neutral-200 border border-white/10 font-semibold text-xs tracking-wider transition-all">
+                <svg class="w-4 h-4 text-rosegold-400" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <span>Call Directly: +91 9152120509</span>
+            </a>
+
+            <!-- Google Maps Location -->
+            <a href="https://maps.google.com/?q=Igatpuri+Maharashtra" 
+               target="_blank" 
+               class="flex items-center justify-center gap-2 w-full py-3 px-6 rounded-2xl bg-black/40 hover:bg-neutral-900 text-neutral-400 hover:text-neutral-200 border border-white/5 font-medium text-xs transition-all">
+                📍 View Igatpuri Location on Google Maps
+            </a>
+        </div>
+
+        <!-- HYPE DISCOUNT BANNER FOR FIRST 10 BOOKINGS -->
+        <div class="w-full my-6 p-6 sm:p-7 rounded-3xl bg-gradient-to-br from-rosegold-900/40 via-red-950/30 to-black border-2 border-rosegold-500/60 shadow-2xl relative overflow-hidden text-center group hover:border-rosegold-400 transition-all">
+            <!-- Pulsing Glow Effect -->
+            <div class="absolute -right-10 -bottom-10 w-32 h-32 bg-rosegold-500/20 rounded-full blur-2xl group-hover:bg-rosegold-400/30 transition-all"></div>
+            
+            <!-- Hype Tag -->
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-600/30 border border-red-500/50 text-red-300 text-[10px] font-extrabold uppercase tracking-widest mb-3 animate-pulse">
+                🔥 HYPER LIMITED OFFER 🔥
+            </div>
+
+            <h3 class="font-cinzel text-xl sm:text-2xl font-black text-white tracking-wide mb-2">
+                FLAT <span class="rosegold-gradient-text text-2xl sm:text-3xl">30% OFF</span> FOR THE FIRST 10 BOOKINGS!
+            </h3>
+
+            <p class="text-xs text-neutral-300 font-medium max-w-sm mx-auto mb-4 leading-relaxed">
+                Be among the first 10 guests to experience Golden Blush Villa at an unbelievable inaugural discount. Slots are filling fast!
+            </p>
+
+            <!-- Progress Slot Tracker -->
+            <div class="w-full max-w-xs mx-auto mb-5">
+                <div class="flex justify-between text-[11px] font-bold text-neutral-300 mb-1.5">
+                    <span class="text-rosegold-300">⚡ Claimed: 7 / 10</span>
+                    <span class="text-red-400 font-extrabold">ONLY 3 SLOTS LEFT!</span>
+                </div>
+                <div class="w-full bg-neutral-900 h-2.5 rounded-full overflow-hidden border border-white/10 p-0.5">
+                    <div class="bg-gradient-to-r from-rosegold-500 to-red-500 h-full rounded-full w-[70%] animate-pulse"></div>
+                </div>
+            </div>
+
+            <!-- Instant Claim Button -->
+            <a href="https://wa.me/qr/SYQFM67YIAEBO1?text=Hi!%20I%20want%20to%20claim%20the%2030%25%20Hype%20Discount%20for%20the%20first%2010%20bookings%20at%20Golden%20Blush%20Villa." 
+               target="_blank" 
+               class="inline-flex items-center justify-center gap-2 w-full max-w-xs py-3.5 px-6 rounded-2xl rosegold-bg-btn text-black font-extrabold text-xs tracking-wider uppercase shadow-lg shadow-rosegold-500/30 hover:scale-[1.02] active:scale-95 transition-all">
+                ⚡ CLAIM YOUR 30% DISCOUNT NOW
+            </a>
+        </div>
+    </main>
+
+    <!-- STICKY BOTTOM BAR FOR MOBILE EASY ACCESS -->
+    <div class="fixed bottom-0 left-0 right-0 p-3 bg-black/80 backdrop-blur-xl border-t border-rosegold-500/20 z-50 sm:hidden">
+        <div class="grid grid-cols-2 gap-2 max-w-md mx-auto">
+            <a href="https://wa.me/qr/SYQFM67YIAEBO1" 
+               target="_blank" 
+               class="flex items-center justify-center gap-2 py-3 px-3 rounded-xl rosegold-bg-btn text-black font-bold text-xs tracking-wide shadow-lg">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.572-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+            </a>
+            <a href="tel:+919152120509" 
+               class="flex items-center justify-center gap-2 py-3 px-3 rounded-xl bg-cardbg text-rosegold-300 font-semibold text-xs border border-rosegold-500/30">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <span>Call Now</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="w-full text-center text-xs text-neutral-600 py-6 border-t border-white/5 z-10 flex flex-col items-center justify-center gap-1.5">
+        <p>© Golden Blush Villa · Igatpuri, Maharashtra</p>
+        <a href="https://instagram.com/goldenblushvilla" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="inline-flex items-center gap-1.5 text-[11px] text-rosegold-400 hover:text-rosegold-300 transition-colors">
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <span>@goldenblushvilla</span>
+        </a>
+    </footer>
+
+    <!-- COUNTDOWN TIMER SCRIPT (60 DAYS FROM SEP 24, 2026 -> NOV 23, 2026) -->
+    <script>
+        // Exact Launch Date: November 23, 2026 00:00:00
+        const launchDate = new Date("November 23, 2026 00:00:00").getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const diff = launchDate - now;
+
+            if (diff <= 0) {
+                document.getElementById("days").innerText = "00";
+                document.getElementById("hours").innerText = "00";
+                document.getElementById("minutes").innerText = "00";
+                document.getElementById("seconds").innerText = "00";
+                return;
+            }
+
+            const d = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const s = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerText = d < 10 ? "0" + d : d;
+            document.getElementById("hours").innerText = h < 10 ? "0" + h : h;
+            document.getElementById("minutes").innerText = m < 10 ? "0" + m : m;
+            document.getElementById("seconds").innerText = s < 10 ? "0" + s : s;
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
